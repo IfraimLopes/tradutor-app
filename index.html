@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tradutor de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Tradutor de Texto</h1>
+    <div class="box">
+      <textarea id="textoEntrada" placeholder="Digite o texto..."></textarea>
+
+      <div class="langs">
+        <select id="idiomaOrigem">
+          <option value="en">Inglês</option>
+          <option value="pt" selected>Português</option>
+          <option value="es">Espanhol</option>
+          <option value="fr">Francês</option>
+          <option value="de">Alemão</option>
+          <option value="it">Italiano</option>
+        </select>
+
+        <select id="idiomaDestino">
+          <option value="pt">Português</option>
+          <option value="en" selected>Inglês</option>
+          <option value="es">Espanhol</option>
+          <option value="fr">Francês</option>
+          <option value="de">Alemão</option>
+          <option value="it">Italiano</option>
+        </select>
+      </div>
+
+      <button id="btnTraduzir">Traduzir</button>
+
+      <div class="output" id="textoSaida">A tradução aparecerá aqui...</div>
+    </div>
+  </div>
+
+  </body>
+</html>
